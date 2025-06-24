@@ -23,7 +23,7 @@ export default async function Page() {
         image: "/Essay.png",
         skills: ["Research", "Critical Thinking", "Writing"],
         description:
-            "Written for my Technology and Culture class, this essay explores human interaction with AI. As AI has advanced in its ability to replicate human emotions and interactions, it is important to explore what sets us apart from the machines we've created.",
+            "Written for my Technology and Culture class, this essay explores human interaction with AI. As AI has advanced in its ability to replicate human emotions and interactions, it is important to explore what sets us apart from the machines we&rsquo;ve created.",
         link: "/Critical Review Essay.pdf",
         msg: "Click here to view the essay📄"
     },

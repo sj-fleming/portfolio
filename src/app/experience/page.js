@@ -44,7 +44,7 @@ export default async function Page(){
                         <p className="text-sm text-[#A99EA7]">The Heights, Inc. • Chestnut Hill, MA</p>
                         <ul className="list-disc list-inside mt-1 text-[#A99EA7]">
                             <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8">
-                                Editorial team for Boston College’s independent student newspaper and a registered nonprofit.
+                                Editorial team for Boston College&rsquo;s independent student newspaper and a registered nonprofit.
                             </li>
                             <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8 pt-2">
                                 Leading a team of 20 photographers to cover 10-15 news stories on campus a week.

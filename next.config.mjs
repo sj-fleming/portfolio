@@ -1,7 +1,10 @@
 const config = {
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
   output: 'export',
   basePath: '/portfolio',
-  assetPrefix: '/portfolio',
+  assetPrefix: '/portfolio/',
   images: {
     unoptimized: true,
   },

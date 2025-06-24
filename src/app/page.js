@@ -46,19 +46,19 @@ export default function Home() {
 
           {/* Bio */}
           <div className="flex-1 min-w-[300px] text-left text-[#F9F5F2] text-xl">
-            <p>Hello! My name is Sarah Fleming and I'm a rising senior at Boston College studying Computer Science and minoring in Management and Leadership.
-              I'm passionate about using technology and collaboration to solve real-world problems and create meaningful impact. 
+            <p>Hello! My name is Sarah Fleming and I&rsquo;m a rising senior at Boston College studying Computer Science and minoring in Management and Leadership.
+              I&rsquo;m passionate about using technology and collaboration to solve real-world problems and create meaningful impact. 
             </p>
             <br />
             <p>I have extensive experience in Java from my tenure as a Teaching Assistant for Computer Science II. 
-            I've also worked on several projects using Python, C, Verilog, React, and SQL. Currently, I am working as an Undergraduate Research Fellow for the BC Computer Science Department.
+            I&rsquo;ve also worked on several projects using Python, C, Verilog, React, and SQL. Currently, I am working as an Undergraduate Research Fellow for the BC Computer Science Department.
             I am working with Professor Finocchiaro on a machine learning research project that explores the use of embeddings to smooth loss functions for evaluating ML models. Through this research opportunity, I am gaining experience with Python, PyTorch, 
             and Pandas while learning about Deep Learning and neural networks.
-            I'm actively seeking software engineering opportunities starting in Fall 2025. If you're interested in connecting, feel free to reach out via the Contact page.
+            I&rsquo;m actively seeking software engineering opportunities starting in Fall 2025. If you're interested in connecting, feel free to reach out via the Contact page.
             </p>
             <br />
             <p>
-            Outside of CS, I also serve as the Photo Editor for <em>The Heights</em>, Boston College's
+            Outside of CS, I also serve as the Photo Editor for <em>The Heights</em>, Boston College&rsquo;s
             independent student newspaper. Check out some of my projects and photography on this site!
             </p>
           </div>
