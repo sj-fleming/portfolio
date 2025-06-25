@@ -39,7 +39,7 @@ export default function Home() {
             </div>
 
             {/* Resume Link */}
-            <a href="/FlemingResume.pdf" download>
+            <a href="/SFlemingResume.pdf" download>
               <button 
                 className="bg-[#F9F5F2] hover:bg-[#726D81] text-[#22223B] font-semibold py-2 px-4 rounded shadow mt-6">
                 Download my resume here!
