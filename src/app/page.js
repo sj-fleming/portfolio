@@ -3,6 +3,11 @@ import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 import Link from "next/link";
 import * as React from 'react';
 import CustomTimeline from "@/components/timeline";
+import { useRouter } from 'next/router';
+
+
+const { basePath } = useRouter();
+
 
 export default function Home() {
   return (
@@ -15,7 +20,7 @@ export default function Home() {
             {/* Profile Image */}
             <div
             className="w-[400px] h-[450px] rounded-md bg-cover bg-center select-none pointer-events-none"
-            style={{backgroundImage: "url('/assets/images/376A0314.jpg')"}}
+            style={{backgroundImage: `url(${basePath}/assets/images/Headshot.jpg)`}}
             />
 
             {/* Social Media Links */}

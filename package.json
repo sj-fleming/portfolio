@@ -5,13 +5,13 @@
   "homepage": "https://sj-fleming.github.io/portfolio",
 "scripts": {
   "dev": "next dev",
-  "build": "next build", 
-  "predeploy": "npm run build",
-  "deploy": "npm run build && touch out/.nojekyll && gh-pages -d out",
+  "build": "next build",
+  "export": "next export",
+  "predeploy": "npm run build && npm run export && cp out/index.html out/404.html && touch out/.nojekyll",
+  "deploy": "gh-pages -d out",
   "start": "next start",
   "lint": "next lint"
-}
-,
+},
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@tailwindcss/postcss": "^4.1.10",
