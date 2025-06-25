@@ -3,6 +3,8 @@ import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
+
 export const metadata = {
   title: "Sarah Fleming",
   description: "Sarah Fleming portfolio and personal website",
@@ -16,7 +18,7 @@ function Header(){
           <div className="flex pl-10 mr-auto">
             <Link href="/">
               <Image 
-                src="/images/Initials.png" 
+                src={`${basePath}/images/Initials.png`} 
                 alt="Logo"
                 width={50}
                 height={50}

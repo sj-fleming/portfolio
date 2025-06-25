@@ -6,8 +6,7 @@
 "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "export": "next export",
-  "predeploy": "npm run build && npm run export && cp out/index.html out/404.html && touch out/.nojekyll",
+  "predeploy": "npm run build && cp out/index.html out/404.html && touch out/.nojekyll",
   "deploy": "gh-pages -d out",
   "start": "next start",
   "lint": "next lint"

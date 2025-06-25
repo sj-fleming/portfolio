@@ -3,10 +3,9 @@ import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 import Link from "next/link";
 import * as React from 'react';
 import CustomTimeline from "@/components/timeline";
-import { useRouter } from 'next/router';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
 
-const { basePath } = useRouter();
 
 
 export default function Home() {
