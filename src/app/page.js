@@ -24,7 +24,7 @@ export default function Home() {
 
             {/* Social Media Links */}
             <div className="flex gap-7 mt-4 text-[#F9F5F2] text-4xl pt-5">
-              <a href="/contact" aria-label="Email" rel="noopener noreferrer">
+              <a href="/portfolio/contact" aria-label="Email" rel="noopener noreferrer">
                 <FaEnvelope className="hover:text-[#726D81] transition" />
               </a>
               <a href="https://github.com/sj-fleming" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
 
             {/* Resume Link */}
-            <a href="/SFlemingResume.pdf" download>
+            <a href="/portfolio/SFlemingResume.pdf" download>
               <button 
                 className="bg-[#F9F5F2] hover:bg-[#726D81] text-[#22223B] font-semibold py-2 px-4 rounded shadow mt-6">
                 Download my resume here!
