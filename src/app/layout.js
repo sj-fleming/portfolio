@@ -13,7 +13,7 @@ export const metadata = {
 function Header(){
   return (
     <header className="bg-[#4A4E69] bg-[radial-gradient(circle_at_top_right,_#6c6f91,_#4A4E69)] py-4">
-      <div className="container mx-auto px-4">
+      <div className="w-full md:container md:mx-auto px-4">
         <nav className="flex items-center justify-end h-10">
           <div className="flex pl-10 mr-auto">
             <Link href="/">
@@ -26,20 +26,20 @@ function Header(){
               />
             </Link>
           </div>
-          <div>
-            <Link href="/" className="text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
+          <div className="flex overflow-x-auto space-x-3 md:space-x-6 lg:space-x-8">
+            <Link href="/" className="text-base md:text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
               Home
             </Link>
-            <Link href="/projects" className="ml-15 text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
+            <Link href="/projects" className="text-base md:text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
               Projects
             </Link>
-            <Link href="/photography" className="ml-15 text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
+            <Link href="/photography" className="text-base md:text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
               Photography
-            </Link>  
-            <Link href="/experience" className="ml-15 text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
-              Experience 
             </Link>
-            <Link href="/contact" className="ml-15 text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
+            <Link href="/experience" className="text-base md:text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
+              Experience
+            </Link>
+            <Link href="/contact" className="text-base md:text-lg font-semibold text-[#F9F5F2] hover:text-[#9A8C98]">
               Contact
             </Link>
           </div>

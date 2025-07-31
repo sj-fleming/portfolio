@@ -18,7 +18,7 @@ export default function Home() {
           <div className="flex flex-col items-center">
             {/* Profile Image */}
             <div
-            className="w-[400px] h-[450px] rounded-md bg-cover bg-center select-none pointer-events-none"
+            className="w-64 sm:w-80 md:w-96 lg:w-[400px] aspect-[4/5] rounded-md bg-cover bg-center select-none pointer-events-none"
             style={{backgroundImage: `url(${basePath}/assets/images/Headshot.jpg)`}}
             />
 

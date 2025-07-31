@@ -35,6 +35,15 @@ export default async function Page() {
             "I taught myself React through a LinkedIn Learning course, and was able to use React along with my prior knowledge of HTML and CSS to build this website. I learned how to style pages using Tailwind CSS, embed videos and links, create clean image presentations, and use Email.js to create a functional contact form.",
         link: "https://github.com/sj-fleming/SarahFlemingWebsite",
         msg: "Click here to view the code on GitHub🔗"
+    },
+        {
+        name: "911 Response Time Analysis: Boulder, CO",
+        image: "/BoulderMap.png",
+        skills: ["Data Analysis", "Data Visualization", "Pandas", "GeoPandas"],
+        description:
+            "Working with a team for a Data Science Hackathon, I analyzed 911 call data from Boulder, CO to identify trends in response times. I used Python libraries such as Pandas and GeoPandas to clean and visualize the data, creating maps and graphs to illustrate findings. We are currently in the process of creating more intuitive visualizations using D3.js and training a machine learning model to predict response times based on time of day, location, and type of emergency.",
+        link: "https://github.com/sj-fleming/BoulderPDCallData",
+        msg: "Click here to view the code on GitHub🔗"
     }
   ];
 

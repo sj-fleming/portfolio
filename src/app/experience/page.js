@@ -20,6 +20,25 @@ export default async function Page(){
                 </div>
                 </section>
 
+                {/* Skills Section */}
+                <section>
+                <h2 className="text-2xl mb-2 border-b">Skills</h2>
+                <ul className="list-disc list-inside mt-1 text-[#A99EA7]">
+                            <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8">
+                                <span className="font-bold text-[#A99EA7]">Programming Languages: </span>Python, Java, C, JavaScript, SQL, Verilog
+                            </li>
+                            <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8 pt-2">
+                                <span className="font-bold text-[#A99EA7]">Frameworks and Libraries: </span>NumPy, Pandas, Matplotlib, Scikit-Learn, PyTorch, React, Django, Spring Boot, REST APIs
+                            </li>
+                            <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8 pt-2"> 
+                                <span className="font-bold text-[#A99EA7]">Tools and Platforms: </span>Git, Linux, HTML, CSS, Tailwind CSS, LaTeX
+                            </li>
+                            <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8 pt-2"> 
+                                <span className="font-bold text-[#A99EA7]">Design and Prototyping: </span>Figma, Adobe Photoshop, Adobe Lightroom, Adobe Premiere Pro, Canva, Photography
+                            </li>
+                        </ul>
+                </section>
+
                 {/* Experience Section */}
                 <section>
                 <h2 className="text-2xl mb-2 border-b">Experience</h2>
@@ -34,6 +53,21 @@ export default async function Page(){
                             <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8">Collaborated with a faculty advisor in their research on model calibration in multiclass classification settings, focusing on smoothing discrete prediction properties to improve ML model loss and calibration.</li>
                             <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8 pt-2">Implemented and trained neural networks in PyTorch to make predictions based on given data sets.</li>
                             <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8 pt-2"> Gained expertise in model evaluation, including plotting loss surfaces, analyzing prediction distributions, and reviewing academic literature on calibration, probabilistic forecasting, and surrogate losses.</li>
+                        </ul>
+                    </div>
+                     <div>
+                        <div className="flex justify-between items-baseline flex-wrap">
+                            <p className="font-medium pt-5">Administrative Assistant</p>
+                            <p className="text-sm text-[#A99EA7]">Jan 2025 – Present</p>
+                        </div>
+                        <p className="text-sm text-[#A99EA7]">Boston College Computer Science Department • Chestnut Hill, MA</p>
+                        <ul className="list-disc list-inside mt-1 text-[#A99EA7]">
+                            <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8">
+                                Welcoming visitors to the Computer Science Department, answering questions, and providing information about the department.
+                            </li>
+                            <li className="relative pl-5 text-[#A99EA7] indent-[-1rem] pl-8 pt-2">
+                                Facilitating communication between students and faculty, utilizing problem0solving and interpersonal skills to resolve student and prospective student inquiries.
+                            </li>
                         </ul>
                     </div>
                       <div>
@@ -88,10 +122,44 @@ content published; increased social media engagement by 200%.
                 </div>
                 </section>
 
-                {/* Skills Section */}
+                {/* Certifications Section */}
                 <section>
-                <h2 className="text-2xl mb-2 border-b">Skills</h2>
-                <p className="text-[#A99EA7]">Git, Java, C, Python, Verilog, SQL, React, PyTorch, Pandas, HTML, CSS, JavaScript, Linux, Adobe Suite, LaTeX, Figma</p>
+                <h2 className="text-2xl mb-2 border-b">Certifications</h2>
+                    { /* Cert 1 */ }
+                    <div className="flex justify-between items-baseline flex-wrap">
+                        <p>React Essential Training</p>
+                        <p className="text-sm text-[#A99EA7]">June 2025</p>
+                    </div>
+                    <p className="text-sm italics text-[#A99EA7]">LinkedIn Learning</p>
+                    <p className="text-[#A99EA7] pb-10">Skills: Front-End Development, React.js, Web Development</p>
+                     { /* Cert 2 */ }
+                    <div className="flex justify-between items-baseline flex-wrap">
+                        <p>PyTorch Essential Training</p>
+                        <p className="text-sm text-[#A99EA7]">June 2025</p>
+                    </div>
+                    <p className="text-sm italics text-[#A99EA7]">LinkedIn Learning</p>
+                    <p className="text-[#A99EA7] pb-10">Skills: Deep Learning, PyTorch, Neural Networks</p>
+                    { /* Cert 3 */ }
+                    <div className="flex justify-between items-baseline flex-wrap">
+                        <p>Pandas Essential Training</p>
+                        <p className="text-sm text-[#A99EA7]">July 2025</p>
+                    </div>
+                    <p className="text-sm italics text-[#A99EA7]">LinkedIn Learning</p>
+                    <p className="text-[#A99EA7] pb-10">Skills: Python, Pandas, Data Science</p>
+                    { /* Cert 4 */ }
+                    <div className="flex justify-between items-baseline flex-wrap">
+                        <p>SQL Essential Training</p>
+                        <p className="text-sm text-[#A99EA7]">July 2025</p>
+                    </div>
+                    <p className="text-sm italics text-[#A99EA7]">LinkedIn Learning</p>
+                    <p className="text-[#A99EA7] pb-10">Skills: SQL, Data Science</p>
+                    { /* Cert 5 */ }
+                    <div className="flex justify-between items-baseline flex-wrap">
+                        <p>Certified Associate in Project Management (CAPM) - <em>in progress</em></p>
+                        <p className="text-sm text-[#A99EA7]">TBD</p>
+                    </div>
+                    <p className="text-sm italics text-[#A99EA7]">Project Management Institute</p>
+                    <p className="text-[#A99EA7] pb-10">Skills: Communication, Project Planning, Scheduling, Cost Management, and Team Leadership</p>
                 </section>
 
                 {/* Awards Section */}
